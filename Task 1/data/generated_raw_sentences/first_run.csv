@@ -1,0 +1,71 @@
+sentence,tags,source
+The highest peak in the Ahaggar Mountains is Mount Tahat.,"['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-mount', 'I-mount', 'O']",GPT
+"The three mountains are Owl Peak, Mount Saint Elias, and Shiprock.","['O', 'O', 'O', 'O', 'B-mount', 'I-mount', 'O', 'B-mount', 'I-mount', 'B-mount', 'O', 'O', 'I-mount', 'O']",GPT
+The Gasherbrum II mountain is one of the highest peaks in the world.,"['O', 'B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+Mount Edgecumbe is a beautiful mountain.,"['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O']",GPT
+The Azufral mountain is a beautiful and majestic peak.,"['O', 'B-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+The trek to Harishchandragad is known for its stunning views and challenging terrain.,"['O', 'O', 'O', 'B-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+The White Mountain is a majestic peak that stands tall and proud.,"['O', 'B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+Mount Hotaka is a beautiful mountain.,"['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O']",GPT
+Old Rag Mountain is a beautiful peak to hike in Virginia.,"['B-mount', 'I-mount', 'B-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+The mountain is called Peak 5390.,"['O', 'O', 'O', 'O', 'B-mount', 'I-mount', 'O']",GPT
+The Mont Pourri is a majestic mountain.,"['O', 'B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O']",GPT
+The highest mountain in Malawi is Sapitwa.,"['O', 'O', 'O', 'O', 'O', 'O', 'B-mount', 'O']",GPT
+Trebevic is a beautiful mountain.,"['B-mount', 'O', 'O', 'O', 'O', 'O']",GPT
+Mount Saint John is a beautiful mountain to hike.,"['B-mount', 'I-mount', 'B-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+The highest mountain in Canada is Barbeau Peak.,"['O', 'O', 'O', 'O', 'O', 'O', 'B-mount', 'I-mount', 'O']",GPT
+The Muztagh Tower is one of the most prominent mountains in the world.,"['O', 'B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+The mountain El Tucuche is a prominent peak in Trinidad and Tobago.,"['O', 'O', 'B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+Mount Temple is a majestic peak in the Canadian Rockies.,"['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+Mammoth Mountain is a popular ski resort in California.,"['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+Mount Jefferson is a majestic peak in the Cascade Range.,"['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+Mission Peak is a beautiful mountain to hike.,"['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+The Grand Roc Noir mountain is a majestic sight to behold.,"['O', 'B-mount', 'I-mount', 'B-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+Trisul and Broad Peak are two majestic mountains.,"['B-mount', 'O', 'I-mount', 'B-mount', 'O', 'O', 'O', 'O', 'O']",GPT
+The majestic Mount Sir Allan MacNab is a sight to behold.,"['O', 'O', 'B-mount', 'I-mount', 'B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+Mount Binalud is a majestic peak that offers breathtaking views of the surrounding landscape.,"['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+Mount Magazine is a beautiful mountain.,"['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O']",GPT
+Sabalan is a beautiful mountain.,"['B-mount', 'O', 'O', 'O', 'O', 'O']",GPT
+The Finsteraarhorn is one of the most prominent mountains in the Swiss Alps.,"['O', 'B-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+The Nairamdal Peak and Gerlachov Peak are both stunning mountains.,"['O', 'B-mount', 'I-mount', 'O', 'B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O']",GPT
+Cypress Mountain is a beautiful peak to visit for outdoor activities.,"['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+The Grand Combin mountain is a majestic peak in the Swiss Alps.,"['O', 'B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+The Pointe de la Fournache is a majestic mountain.,"['O', 'B-mount', 'I-mount', 'B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O']",GPT
+The Heart mountain is a beautiful and majestic peak.,"['O', 'B-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+Mount Morrison is a beautiful mountain.,"['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O']",GPT
+Mount Andrus is a beautiful mountain located in the western region.,"['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+The Mont Maudit is a beautiful mountain to hike.,"['O', 'B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+The Gasherbrum IV is one of the most challenging mountains to climb in the world.,"['O', 'B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+The majestic Gora Sovetskaya stands tall in the distance.,"['O', 'O', 'B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+Pizzo Centrale is a beautiful mountain.,"['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O']",GPT
+Mount Langley is a beautiful mountain.,"['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O']",GPT
+The highest mountain in Canada is Mount Logan.,"['O', 'O', 'O', 'O', 'O', 'O', 'B-mount', 'I-mount', 'O']",GPT
+Mount Foraker and Helvellyn are two majestic mountains.,"['B-mount', 'I-mount', 'O', 'B-mount', 'O', 'O', 'O', 'O', 'O']",GPT
+The Nevado de Toluca is a beautiful mountain.,"['O', 'B-mount', 'I-mount', 'B-mount', 'O', 'O', 'O', 'O', 'O']",GPT
+The highest peak in the Apennine Mountains is Monte Gorzano.,"['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-mount', 'I-mount', 'O']",GPT
+Mission Peak is a beautiful mountain to hike.,"['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+The mountain Gyeyangsan is a popular hiking destination in South Korea.,"['O', 'O', 'B-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+"I have visited Haleakala, Table Mountain, and Mount Samsari during my mountain climbing expeditions.","['O', 'O', 'O', 'B-mount', 'O', 'I-mount', 'B-mount', 'O', 'O', 'I-mount', 'B-mount', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+Wilson Peak is a beautiful mountain.,"['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O']",GPT
+Chimneytop is a beautiful mountain.,"['B-mount', 'O', 'O', 'O', 'O', 'O']",GPT
+Seward Mountain is a beautiful peak to hike.,"['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+"Mount Korab, located in North Macedonia, is known for its challenging climbing routes, while Gimmigela Chuli in the Himalayas is a popular destination for mountaineers and offers stunning geological formations.","['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+Wai'ale'ale is a majestic mountain known for its challenging climbing routes and fascinating geological formations.,"['B-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+"Miranjani is a popular trekking destination in Pakistan, known for its stunning views and challenging trails.","['B-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+"The Lenzspitze is a challenging peak to climb, known for its steep and technical routes, while Mount D'Urville offers a unique geological perspective with its diverse rock formations.","['O', 'B-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'I-mount', 'B-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+"Masherbrum is a stunning mountain located in the Karakoram range of Pakistan, known for its challenging climbing routes and breathtaking geological formations.","['B-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+"Langtang Lirung is a majestic peak located in the Langtang region of Nepal, while Mount Sidley is a prominent volcano in Antarctica.","['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-mount', 'O', 'O', 'O', 'O', 'O', 'I-mount', 'B-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+Monte Miletto is a magnificent peak that offers a challenging climb for experienced mountaineers and showcases geological formations that are a delight for geologists.,"['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+"Little Si is a popular climbing destination for its scenic views and challenging routes. As a geologist, I am fascinated by the unique rock formations found on Little Si.","['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-mount', 'I-mount', 'O']",GPT
+Mount Zagora is a stunning peak that offers challenging climbing routes and breathtaking views of the surrounding landscape.,"['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+"Mount Caubvick is the highest peak in the Torngat Mountains, while Musala is the highest peak in the Rila Mountains.","['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+"Dzhengal and Mount Korab are both impressive mountains, each with its own unique geological features and climbing challenges.","['B-mount', 'O', 'I-mount', 'B-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+Crown Mountain is a breathtaking peak that offers a challenging climb for experienced mountaineers.,"['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+"Mount Skylight is a prominent peak in the Adirondack Mountains, while Mount Donna Buang is a popular destination for hikers in the Victorian Alps.","['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-mount', 'I-mount', 'B-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+"Mount Popomanaseu is the highest peak in the Solomon Islands, and its rugged terrain offers a challenging and rewarding climbing experience for enthusiasts and geologists alike.","['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+Mount Nabi Yunis is a majestic peak that offers a challenging yet rewarding climb for experienced mountaineers.,"['B-mount', 'I-mount', 'B-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+Pointe de la Fournache is a stunning peak that offers challenging climbing routes and breathtaking geological formations.,"['B-mount', 'I-mount', 'B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+"Monte Tamaro is a stunning mountain with a rich geological history, making it a popular destination for climbers and geologists alike.","['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+"Mount Agung is a majestic peak that offers a challenging climb for experienced mountaineers, with its unique geological features providing a fascinating backdrop to the ascent.","['B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+"Jannu is a formidable peak in the Himalayas, while Medicine Bow Peak is a prominent mountain in the Medicine Bow Range of the Rocky Mountains.","['B-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'I-mount', 'B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'B-mount', 'I-mount', 'O', 'O', 'O', 'O', 'O', 'O']",GPT
+The Lauteraarhorn is a majestic peak that offers a challenging climb for experienced mountaineers.,"['O', 'B-mount', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']",GPT

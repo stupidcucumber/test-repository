@@ -1,0 +1,368 @@
+{
+  "sentences": [
+    {
+      "names": ["The Himalaya"],
+      "sentence": "The Himalaya in Asia formed from one such massive wreck that started about 55 million years ago."
+    },
+    {
+      "names": ["Himalaya"],
+      "sentence": "Thirty of the world’s highest mountains are in the Himalaya."
+    },
+    {
+      "names": ["Mount Everest"],
+      "sentence": "The summit of Mount Everest, at 29,035 feet (8,850 metres), is the highest point on Earth."
+    },
+    {
+      "names": ["Mauna Kea"],
+      "sentence": "The tallest mountain measured from top to bottom is Mauna Kea, an inactive volcano on the island of Hawaii in the Pacific Ocean."
+    }
+  ]
+},
+{
+    "sentences": [
+        {
+            "names": ["Mount St. Helens", "Mount Fuji"],
+            "sentence": "Well-known volcanoes on land include Mount St. Helens in Washington State and Mount Fuji in Japan."
+        },
+        {
+            "names": ["Mount St. Helens"],
+            "sentence": "Sometimes volcanic eruptions break down mountains instead of building them up, like the 1980 eruption that blew the top off Mount St. Helens."
+        },
+        {
+            "names": ["Black Hills", "Adirondack Mountains"],
+            "sentence": "Examples include the Black Hills of South Dakota and the Adirondack Mountains of New York."
+        },
+        {
+            "names": ["Sierra Nevada", "Tetons", "Harz Mountains"],
+            "sentence": "Examples of fault-block mountains include the Sierra Nevada in California and Nevada, the Tetons in Wyoming, and the Harz Mountains in Germany."
+        },
+        {
+            "names": ["Appalachians", "Himalayas"],
+            "sentence": "The Appalachians, stretching along North America’s east coast, are generally low-lying, gentle slopes. Millions of years ago, the Appalachians were taller than the Himalayas!"
+        }
+    ]
+},
+{
+  "sentences": [
+    {
+      "names": ["Appalachians"],
+      "sentence": "Millions of years of erosion, however, have taken their toll."
+    },
+    {
+      "names": ["Everest", "Appalachians"],
+      "sentence": "Today, some of the highest peaks of the Appalachians are less than a third of the height of Everest."
+    },
+    {
+      "names": ["Appalachians", "Central Pangean Mountains"],
+      "sentence": "The Appalachians are just one remnant of the Central Pangean Mountains."
+    },
+    {
+      "names": ["Scottish Highlands", "Little Atlas Mountains", "Central Pangean Mountains"],
+      "sentence": "They are related to the gentle fold mountains of the Scottish Highlands (Eurasia) and the Little Atlas Mountains in Morocco (Africa)—their orogenic sisters from the Central Pangean Mountains."
+    },
+    {
+      "names": ["mountains", "tectonic plates", "Earth’s crust"],
+      "sentence": "Some mountains form when the big slabs of rock—called tectonic plates—that make up the Earth’s crust crash into each other."
+    }
+  ]
+},
+{
+  "sentences": [
+    {
+      "names": [],
+      "sentence": "Over millions of years, the sheets of rock push up and over one another, creating the mountain. Others form when vents in the Earth’s surface erupt and spew lava out onto the ground."
+    },
+    {
+      "names": [],
+      "sentence": "The lava piles up and cools. Over millions of years, the many layers of hard lava become a mountain."
+    },
+    {
+      "names": [],
+      "sentence": "Mountains are on every continent."
+    },
+    {
+      "names": [],
+      "sentence": "The longest mountain range is over 40,000 miles long—and 90 percent is under the ocean!"
+    },
+    {
+      "names": ["Mid-Ocean Ridge"],
+      "sentence": "Called the Mid-Ocean Ridge, it wraps around the globe like the seams of a baseball."
+    }
+  ]
+},
+{
+    "sentences": [
+        {
+            "names": ["Andes"],
+            "sentence": "The longest aboveground mountain range is the Andes."
+        },
+        {
+            "names": ["Andes"],
+            "sentence": "Running along the entire west coast of South America through seven different countries—including Argentina, Chile, and Colombia—it’s 4,700 miles long."
+        },
+        {
+            "names": ["Mount Everest"],
+            "sentence": "Mount Everest, on the border of Nepal and China in Asia, is the highest mountain above sea level in the world."
+        },
+        {
+            "names": ["Mount Everest"],
+            "sentence": "Towering at just over 29,000 feet it would take almost 5,000 grown men stacked on top of each other to reach that high."
+        },
+        {
+            "names": [],
+            "sentence": "Mountains often have extreme climates, and the animals that live there have some amazing adaptations."
+        }
+    ]
+},
+{
+  "sentences": [
+    {
+      "names": ["Asia’s Himalaya"],
+      "sentence": "For instance, the red panda in Asia’s Himalaya grows a thick coat."
+    },
+    {
+      "names": [],
+      "sentence": "Living in the mountains of North America, snowshoe hares have snow-white coats that help them hide from mountain lions and other predators."
+    },
+    {
+      "names": [],
+      "sentence": "Grizzly bears and hoary marmots living in the mountains of North America survive the cold winters by hibernating—hiding out in dens and resting—to conserve energy when food is hard to find."
+    }
+  ]
+},
+{
+  "sentences": [
+    {
+      "names": ["Europe's Alps"],
+      "sentence": "Other animals, like mountain goats and ibexes living in Europe's Alps, migrate to lower, warmer elevations during the winter."
+    },
+    {
+      "names": [],
+      "sentence": "These animals have tough but flexible hooves to steady themselves when climbing up and down the rocky terrain looking for food."
+    },
+    {
+      "names": [],
+      "sentence": "Just like these animals, you can also have fun on a mountain—you’ll just need to figure out how to hike without hooves!"
+    },
+    {
+      "names": ["Mount Everest", "Tibet"],
+      "sentence": "There’s no customs booth on the summit of Mount Everest – the highest mountain on Earth – where a frontier straddles Nepal and Tibet."
+    },
+    {
+      "names": ["Sagarmatha", "Chomolungma", "Everest"],
+      "sentence": "Nepalis call their famous hill Sagarmatha (“Sky Head”), Tibetans know it as Chomolungma (“Mother of the World”), while geologists lump Everest (named after legendary 19th-century British land surveyor George Everest) in the youth category."
+    }
+  ]
+},
+{
+  "sentences": [
+    {
+      "names": ["Mount Denali", "Mount McKinley"],
+      "sentence": "North America’s highest peak (formerly named Mount McKinley) may max out at an elevation barely above Himalayan low camps, but never mind all that."
+    },
+    {
+      "names": ["Mount Denali"],
+      "sentence": "Few bits of tectonically bent granite are as impossibly enormous as Mount Denali, which rears nearly three-and-a-half vertical miles up above its relatively low 2,000-foot starting point."
+    },
+    {
+      "names": ["Everest"],
+      "sentence": "From base to summit, that’s over a mile taller than Everest."
+    },
+    {
+      "names": ["Alaska Range"],
+      "sentence": "The crown of the 600-mile-long Alaska Range is big enough to create its own weather patterns."
+    },
+    {
+      "names": ["Mount Denali"],
+      "sentence": "Scientists say Mount Denali is still on the rise – at a steady-ish rate of about half a millimeter per year."
+    }
+  ]
+},
+{
+  "sentences": [
+    {
+      "names": ["Kilimanjaro"],
+      "sentence": "Probably just by being Kilimanjaro – the world’s tallest freestanding peak, a dormant (but still simmering) volcano, and a not-so-microcosmic world unto itself."
+    }
+  ]
+}
+
+{
+  "sentences": [
+    {
+      "names": ["Kilimanjaro"],
+      "sentence": "A non-technical “walk up” climb with several established routes to choose from, Kilimanjaro is far too susceptible to being minimized as a multi-day hike."
+    }
+  ]
+}
+
+{
+  "sentences": [
+    {
+      "names": ["Mount Elbrus", "Caucasus Mountains", "Mont Blanc"],
+      "sentence": "Perched on the European side of the Caucasus Mountains – which forms a continental divide with Asia – twin-peaked Mount Elbrus edges out Mont Blanc (see below) and all those glitzier alps to the west by at least a half-mile of perma-frosted vertical, making it Europe’s (and Russia’s) highest hill."
+    }
+  ]
+}
+
+{
+  "sentences": [
+    {
+      "names": ["Elbrus"],
+      "sentence": "During summer climbing season, the most popular passage to the summit of Elbrus’ west peak (the higher of the two) is along the Standard Route via the mountain’s south face, where a cable car can take climbers as high as 12,500 feet."
+    }
+  ]
+}
+
+{
+  "sentences": [
+    {
+      "names": ["Mount Aconcagua"],
+      "sentence": "Mount Aconcagua was in an earlier life an active volcano on the edge of a shallow dinosaur-era sea."
+    }
+  ]
+},
+{
+  "sentences": [
+    {
+      "names": ["Altai Mountains"],
+      "sentence": "In Mongolia, it’s easy for a traveler to be quickly swept away by the endless green steppes, the heartiness of the Kazakh nomads, and the rolling landscapes that define the Altai Mountains."
+    }
+  ]
+}
+
+{
+  "sentences": [
+    {
+      "names": ["Uhuru"],
+      "sentence": "The highest peak, Uhuru, is 19,340 feet high."
+    }
+  ]
+}
+
+{
+  "sentences": [
+    {
+      "names": ["Matterhorn"],
+      "sentence": "Nestled in the Swiss Alps, the Matterhorn is the most recognized mountain on the European continent."
+    }
+  ]
+}
+
+{
+  "sentences": [
+    {
+      "names": ["Mount Denali", "Denali National Park", "Alaska"],
+      "sentence": "Mount Denali, located in Denali National Park, Alaska, is the highest mountain in North America at 20,320 feet."
+    }
+  ]
+}
+
+{
+  "sentences": [
+    {
+      "names": ["Mount Denali"],
+      "sentence": "Mount Denali’s tremendous size and beauty create a magnetism that continually draws climbers from around the world."
+    }
+  ]
+},
+{
+    "sentences": [
+        {
+            "names": ["The Himalaya"],
+            "sentence": "The Himalaya in Asia formed from one such massive wreck that started about 55 million years ago."
+        },
+        {
+            "names": ["Himalaya"],
+            "sentence": "Thirty of the world’s highest mountains are in the Himalaya."
+        },
+        {
+            "names": ["Mount Everest"],
+            "sentence": "The summit of Mount Everest, at 29,035 feet (8,850 metres), is the highest point on Earth."
+        },
+        {
+            "names": ["Mauna Kea"],
+            "sentence": "The tallest mountain measured from top to bottom is Mauna Kea, an inactive volcano on the island of Hawaii in the Pacific Ocean."
+        },
+        {
+            "names": ["Mount St. Helens", "Mount Fuji"],
+            "sentence": "Well-known volcanoes on land include Mount St. Helens in Washington State and Mount Fuji in Japan."
+        },
+        {
+            "names": ["Mount St. Helens"],
+            "sentence": "Sometimes volcanic eruptions break down mountains instead of building them up, like the 1980 eruption that blew the top off Mount St. Helens."
+        },
+        {
+            "names": ["Black Hills", "Adirondack Mountains"],
+            "sentence": "Examples include the Black Hills of South Dakota and the Adirondack Mountains of New York."
+        },
+        {
+            "names": ["Sierra Nevada", "Tetons", "Harz Mountains"],
+            "sentence": "Examples of fault-block mountains include the Sierra Nevada in California and Nevada, the Tetons in Wyoming, and the Harz Mountains in Germany."
+        },
+        {
+            "names": ["Appalachians", "Himalayas"],
+            "sentence": "The Appalachians, stretching along North America’s east coast, are generally low-lying, gentle slopes. Millions of years ago, the Appalachians were taller than the Himalayas!"
+        },
+        {
+            "names": ["Appalachians"],
+            "sentence": "Millions of years of erosion, however, have taken their toll."
+        },
+        {
+            "names": ["Everest", "Appalachians"],
+            "sentence": "Today, some of the highest peaks of the Appalachians are less than a third of the height of Everest."
+        },
+        {
+            "names": ["Appalachians", "Central Pangean Mountains"],
+            "sentence": "The Appalachians are just one remnant of the Central Pangean Mountains."
+        },
+        {
+            "names": ["Scottish Highlands", "Little Atlas Mountains", "Central Pangean Mountains"],
+            "sentence": "They are related to the gentle fold mountains of the Scottish Highlands (Eurasia) and the Little Atlas Mountains in Morocco (Africa)—their orogenic sisters from the Central Pangean Mountains."
+        },
+        {
+            "names": ["mountains", "tectonic plates", "Earth’s crust"],
+            "sentence": "Some mountains form when the big slabs of rock—called tectonic plates—that make up the Earth’s crust crash into each other."
+        },
+        {
+            "names": ["mountain"],
+            "sentence": "Over millions of years, the sheets of rock push up and over one another, creating the mountain. Others form when vents in the Earth’s surface erupt and spew lava out onto the ground."
+        },
+        {
+            "names": ["lava", "mountain"],
+            "sentence": "The lava piles up and cools. Over millions of years, the many layers of hard lava become a mountain."
+        },
+        {
+            "names": ["Mountains"],
+            "sentence": "Mountains are on every continent."
+        },
+        {
+            "names": ["mountain", "range", "ocean"],
+            "sentence": "The longest mountain range is over 40,000 miles long—and 90 percent is under the ocean!"
+        },
+        {
+            "names": ["Mid-Ocean Ridge", "globe"],
+            "sentence": "Called the Mid-Ocean Ridge, it wraps around the globe like the seams of a baseball."
+        },
+        {
+            "names": ["Andes"],
+            "sentence": "The longest aboveground mountain range is the Andes."
+        },
+        {
+            "names": ["Andes", "Argentina", "Chile", "Colombia"],
+            "sentence": "Running along the entire west coast of South America through seven different countries—including Argentina, Chile, and Colombia—it’s 4,700 miles long."
+        },
+        {
+            "names": ["Mount Everest", "Nepal", "China"],
+            "sentence": "Mount Everest, on the border of Nepal and China in Asia, is the highest mountain above sea level in the world."
+        },
+        {
+            "names": ["Mount Everest"],
+            "sentence": "Towering at just over 29,000 feet it would take almost 5,000 grown men stacked on top of each other to reach that high."
+        },
+        {
+            "names": [],
+            "sentence": "Mountains often have extreme climates, and the animals that live there have some amazing adaptations."
+        }
+    ]
+},
