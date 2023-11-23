@@ -3,9 +3,12 @@ from transformers import BertForTokenClassification
 
 
 class BertModel(torch.nn.Module):
-    def __init__(self, classes_num: int=3):
+    def __init__(self, classes_num: int=3, weight_path: str=None):
         super(BertModel, self).__init__()
-        self.bert = BertForTokenClassification.from_pretrained('bert-base-cased', num_labels=classes_num)
+        if weight_path is None:
+            self.bert = BertForTokenClassification.from_pretrained('bert-base-cased', num_labels=classes_num)
+        else:
+            self.bert = BertForTokenClassification.from_pretrained(weight_path, num_labels=classes_num)
 
 
     def forward(self, input_id, mask, label):

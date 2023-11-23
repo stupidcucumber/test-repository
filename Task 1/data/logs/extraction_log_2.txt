@@ -1,0 +1,140 @@
+[{
+    "sentences": [
+        {
+            "names": ["Northern Rocky Mountains"],
+            "sentence": "But this fire disaster happened over 110 years ago in the Northern Rocky Mountains of Idaho and Montana."
+        },
+        {
+            "names": ["Northern Rockies"],
+            "sentence": "The “Big Burn” of 1910 still holds the record for the largest fire season in the Northern Rockies."
+        }
+    ]
+},
+{
+    "sentences": [
+        {
+            "names": ["Alps"],
+            "sentence": "Catholics and fascists alike have deployed images of mountains - and particularly the Alps - in their rhetoric, each ascribing them with their own meaning."
+        },
+        {
+            "names": ["Alps"],
+            "sentence": "Fascists used the Alps as grounds on which to improve the health of the nation."
+        }
+    ]
+},
+{
+    "sentences": [
+        {
+            "names": ["Kilimanjaro"],
+            "sentence": "Kilimanjaro in Africa are volcanic mountains."
+        },
+        {
+            "names": ["Mount Rainier"],
+            "sentence": "Mount Rainier in the United States is another example."
+        }
+    ]
+},
+{
+    "sentences": [
+        {
+            "names": ["Mount Kailash"],
+            "sentence": "Mount Kailash, in the Tibet Autonomous Region of China, is considered to be sacred in four religions."
+        }
+    ]
+},
+{
+    "sentences": [
+        {
+            "names": ["Himalayan", "Nanda Devi"],
+            "sentence": "The Himalayan peak of Nanda Devi is associated with the Hindu goddesses Nanda and Sunanda; it has been off-limits to climbers since 1983."
+        },
+        {
+            "names": ["Mount Ararat"],
+            "sentence": "Mount Ararat is a sacred mountain, as it is believed to be the landing place of Noah's Ark."
+        }
+    ]
+},
+{
+    "sentences": [
+        {
+            "names": ["Alps"],
+            "sentence": "In Europe and especially in the Alps, summit crosses are often erected on the tops of prominent mountains."
+        },
+        {
+            "names": ["Denali", "Mount Kilimanjaro", "Nanga Parbat"],
+            "sentence": "There is no precise definition of surrounding base, but Denali, Mount Kilimanjaro and Nanga Parbat are possible candidates for the tallest mountain on land by this measure."
+        }
+    ]
+},
+{
+    "sentences": [
+        {
+            "names": ["Mount Logan"],
+            "sentence": "Mount Logan is the largest non-volcanic mountain in base area (120 sq mi or 311 km2)."
+        },
+        {
+            "names": ["Eastern Pamirs", "Kunlun Mountains"],
+            "sentence": "A peak included in the 'Eastern Pamirs' more often than in the Kunlun Mountains."
+        }
+    ]
+},
+{
+    "sentences": [
+        {
+            "names": ["Sailughem Mountains", "Kolyvan Altai", "Sayan Mountains"],
+            "sentence": "In the north of the region is the Sailughem Mountains, also known as Kolyvan Altai, which stretch northeast towards the western extremity of the Sayan Mountains."
+        },
+        {
+            "names": ["Sailughem Mountains"],
+            "sentence": "The north western and northern slopes of the Sailughem Mountains are extremely steep and difficult to access."
+        }
+    ]
+},
+{
+    "sentences": [
+        {
+            "names": ["Altai mountains"],
+            "sentence": "The Altai mountains are home to a diverse fauna, because of its different habitats, like steppes, northern taigas and alpine vegetation."
+        },
+        {
+            "names": ["Daksinaparvata", "Vindhyas", "Southern Mountain"],
+            "sentence": "The \"Daksinaparvata\" (\"Southern Mountain\") mentioned in the Kaushitaki Upanishad is also identified with the Vindhyas."
+        }
+    ]
+},
+{
+    "sentences": [
+        {
+            "names": ["Vindhya Range", "Vindhyachal"],
+            "sentence": "The Vindhya Range (also known as Vindhyachal) is a complex, discontinuous chain of mountain ridges, hill ranges, highlands and plateau escarpments."
+        },
+        {
+            "names": ["Pontic Mountains", "Pontic Alps"],
+            "sentence": "The Pontic Mountains or Pontic Alps form a mountain range in northern Anatolia, Turkey."
+        }
+    ]
+},
+{
+    "sentences": [
+        {
+            "names": ["Cantabrian Mountains", "Cantabrian Range"],
+            "sentence": "The Cantabrian Mountains or Cantabrian Range are one of the main systems of mountain ranges in Spain."
+        },
+        {
+            "names": ["Picos de Europa"],
+            "sentence": "The main mountains of this zone are the massive Picos de Europa."
+        }
+    ]
+},
+{
+    "sentences": [
+        {
+            "names": ["Basque Mountains"],
+            "sentence": "The Basque Mountains at the eastern end of the system, with very eroded Mesozoic folds."
+        },
+        {
+            "names": ["Atlas Mountains"],
+            "sentence": "The Atlas Mountains are a mountain range in the Maghreb in North Africa."
+        }
+    ]
+}]

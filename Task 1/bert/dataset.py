@@ -20,4 +20,4 @@ class BertDataset(Dataset):
 
 
     def __getitem__(self, index):
-        return self.data.iloc[index]['input_ids'], self.data.iloc[index]['attention_mask'], torch.LongTensor(self.data.loc[index]['labels'])
+        return self.data.iloc[index]['input_ids'], self.data.iloc[index]['attention_mask'], torch.LongTensor(self.data.iloc[index]['labels'])

@@ -1,0 +1,29 @@
+{
+  "sentences": [
+    "I want to break free , && Everest && ! ",
+    "Nestled in the heart of the Rockies , && Mount Celestia && stands as a majestic sentinel , its snow-capped peak touching the sky . ",
+    "The formidable && Mount Embercore && , with its rugged slopes and ancient glaciers , dominates the landscape of the northern wilderness . ",
+    "Hidden among the clouds , the elusive && Azure Peak && boasts breathtaking vistas and is revered by mountaineers seeking the ultimate alpine challenge . ",
+    "The internship will take place online . ",
+    "First , there will be an introductory meeting where the participants will get to know each other and the mentor and learn about the Skill Evaluation program , the scope of work , and the project . ",
+    "Further communication will occur in the chat , where we 'll publish tasks . ",
+    "We are looking for ambitious and interested participants who want to learn new things quickly . ",
+    "The maximum number of candidates for the internship is ten people . ",
+    "Each participant should spend about 20 hours a week studying . ",
+    "Every intern will have a mentor - the Data Scientist with 5+ years of practical experience . ",
+    "Some mountains were formed by the activity of volcanoes . ",
+    "Scientists believe that most volcanic mountains are made up of rock that melted deep within Earth . ",
+    "The rock rose through Earth 's surface , or crust . ",
+    "It then flowed onto the surface in the form of lava . ",
+    "The lava , along with volcanic dust , built up to form mountains . ",
+    "Volcanic mountains are typically steep and cone shaped . ",
+    "&& Mount Fuji && in Japan , Mount Kilimanjaro in Africa , and Mount Rainier in the United States are examples of volcanic mountains . ",
+    "Other mountains were formed by movements within Earth 's surface , or crust . ",
+    "The theory called plate tectonics explains this type of mountain building . ",
+    "Earth 's surface is divided into huge pieces called plates , which move very slowly . ",
+    "The continents sit on top of the plates and move with them . ",
+    "At times the plates collide , forcing the rock upward . ",
+    "The Himalayas of Asia are an example of this type of mountain chain . ",
+    "They were formed when a plate carrying India collided with the Asian plate . "
+  ]
+}

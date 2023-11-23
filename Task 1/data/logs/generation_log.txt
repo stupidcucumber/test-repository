@@ -5,23 +5,23 @@
       "sentence": "Shiprock rises majestically from the desert landscape, a striking solitary peak."
     },
     {
-      "names": ["Tödi"],
+      "names": ["Tödi", "Piz Russein", "Glarus Alps"],
       "sentence": "Tödi, also known as Piz Russein, is the highest mountain in the Glarus Alps of Switzerland."
     },
     {
-      "names": ["Pico de Orizaba"],
+      "names": ["Pico de Orizaba", "Citlaltépetl"],
       "sentence": "Pico de Orizaba, also known as Citlaltépetl, is the highest peak in Mexico and the third highest in North America."
     },
     {
-      "names": ["Aiguille de Polset"],
+      "names": ["Aiguille de Polset", "French Alps"],
       "sentence": "Aiguille de Polset is a stunning peak in the French Alps, known for its challenging climbing routes."
     },
     {
-      "names": ["Machoi Peak", "University Peak"],
+      "names": ["Machoi Peak", "University Peak", "Karakoram Range", "Himalayas"],
       "sentence": "Machoi Peak and University Peak are part of the stunning Karakoram Range in the Himalayas."
     },
     {
-      "names": ["Broad Peak"],
+      "names": ["Broad Peak", "Karakoram Range"],
       "sentence": "Broad Peak is one of the 14 eight-thousanders and is located in the Karakoram Range of Pakistan."
     },
     {
@@ -33,7 +33,7 @@
       "sentence": "Mount Aragats and Nevado del Tolima are both impressive peaks, each with its own unique characteristics and allure."
     },
     {
-      "names": ["Baltoro Kangri"],
+      "names": ["Baltoro Kangri", "Karakoram Range"],
       "sentence": "Baltoro Kangri is a striking peak located in the Karakoram Range, offering a challenging ascent for mountaineers."
     },
     {
@@ -89,7 +89,7 @@
 {
   "sentences": [
     {
-      "names": ["Teri Kang"],
+      "names": ["Teri Kang", "Himalayas"],
       "sentence": "Teri Kang is a majestic peak located in the Himalayas."
     },
     {
@@ -145,7 +145,7 @@
       "sentence": "Mount Huye, Turret Peak, and Mount Santubong form a breathtaking trio of mountains, each with its own unique appeal for climbers."
     },
     {
-      "names": ["Finsteraarhorn"],
+      "names": ["Finsteraarhorn", "Bernese Alps"],
       "sentence": "Finsteraarhorn is the highest peak in the Bernese Alps and presents a formidable challenge for even the most experienced mountaineers."
     },
     {
@@ -249,11 +249,11 @@
 {
   "sentences": [
     {
-      "names": ["Eiger"],
+      "names": ["The Eiger", "Bernese Alps"],
       "sentence": "The Eiger is a famous mountain in the Bernese Alps of Switzerland."
     },
     {
-      "names": ["Mont Pelvoux"],
+      "names": ["Mont Pelvoux", "French Alps"],
       "sentence": "Mont Pelvoux is a stunning peak located in the French Alps."
     },
     {
@@ -389,15 +389,15 @@
 {
   "sentences": [
     {
-      "names": ["Red Slate Mountain"],
+      "names": ["Red Slate Mountain", "Sierra Nevada range"],
       "sentence": "Red Slate Mountain is a prominent peak located in the Sierra Nevada range of California."
     },
     {
-      "names": ["Conejos Peak"],
+      "names": ["Conejos Peak", "Sangre de Cristo Range"],
       "sentence": "Conejos Peak is a majestic mountain in the Sangre de Cristo Range of Colorado."
     },
     {
-      "names": ["Strmenica"],
+      "names": ["Strmenica", "Šar Mountains"],
       "sentence": "Strmenica is a stunning mountain in the Šar Mountains of Kosovo."
     },
     {
@@ -666,7 +666,7 @@
     },
     {
       "sentence": "The Rock of the Holy Fathers cast a long shadow over the valley, a symbol of strength and endurance.",
-      "names": ["Rock of the Holy Fathers"]
+      "names": ["The Rock of the Holy Fathers"]
     },
     {
       "sentence": "Acotango's snow-capped summit glistened in the sunlight, a breathtaking sight to behold.",
@@ -678,23 +678,23 @@
   "sentences": [
     {
       "sentence": "Baba Budangiri is a sacred mountain located in the Western Ghats of India.",
-      "names": ["Baba Budangiri"]
+      "names": ["Baba Budangiri", "Western Ghats"]
     },
     {
       "sentence": "Altun Shan, also known as the Altun Mountains, is a range in the eastern Tien Shan of China.",
-      "names": ["Altun Shan"]
+      "names": ["Altun Shan", "Altun Mountains", "Tien Shan"]
     },
     {
       "sentence": "Kongde Ri is a prominent peak in the Himalayas, located in the Khumbu region of Nepal.",
-      "names": ["Kongde Ri"]
+      "names": ["Kongde Ri", "Himalayas"]
     },
     {
       "sentence": "Mount Helen is an imposing volcano in the Cascade Range of Oregon, USA.",
-      "names": ["Mount Helen"]
+      "names": ["Mount Helen", "Cascade Range"]
     },
     {
       "sentence": "Aoraki / Mount Cook is the highest mountain in New Zealand, located in the Southern Alps.",
-      "names": ["Aoraki / Mount Cook"]
+      "names": ["Aoraki / Mount Cook", "Southern Alps"]
     }
   ]
 },
@@ -725,7 +725,7 @@
 {
   "sentences": [
     {
-      "names": ["Huascaran North"],
+      "names": ["Huascaran North", "Andes mountain range"],
       "sentence": "Huascaran North is a majestic peak in the Andes mountain range."
     },
     {
@@ -733,11 +733,11 @@
       "sentence": "La Grande Soufriere is a prominent volcano located in the Caribbean."
     },
     {
-      "names": ["Mitre Peak"],
+      "names": ["Mitre Peak", "Southern Alps"],
       "sentence": "Mitre Peak is a stunning landmark in the Southern Alps of New Zealand."
     },
     {
-      "names": ["Saraghrar"],
+      "names": ["Saraghrar", "Hindu Kush mountain range"],
       "sentence": "Saraghrar is a challenging peak in the Hindu Kush mountain range."
     },
     {

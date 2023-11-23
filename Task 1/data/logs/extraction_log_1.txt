@@ -253,8 +253,8 @@
       "sentence": "Perched on the European side of the Caucasus Mountains – which forms a continental divide with Asia – twin-peaked Mount Elbrus edges out Mont Blanc (see below) and all those glitzier alps to the west by at least a half-mile of perma-frosted vertical, making it Europe’s (and Russia’s) highest hill."
     },
     {
-      "names": ["Elbrus’ west peak", "Standard Route"],
-      "sentence": "During summer climbing season, the most popular passage to the summit of Elbrus’ west peak (the higher of the two) is along the Standard Route via the mountain’s south face, where a cable car can take climbers as high as 12,500 feet."
+      "names": ["Elbrus west peak", "Standard Route"],
+      "sentence": "During summer climbing season, the most popular passage to the summit of Elbrus west peak (the higher of the two) is along the Standard Route via the mountain’s south face, where a cable car can take climbers as high as 12,500 feet."
     }
   ]
 },
