@@ -5,6 +5,7 @@ import pandas as pd
 import argparse
 from bert import BertModel, BertDataset, BertTokenizer
 from ast import literal_eval
+import os
 
 
 def parse_arguments():
@@ -18,8 +19,11 @@ def parse_arguments():
                         help='Option for specifying learning rate in SGD.')
     parser.add_argument('--dataset', type=str,
                         help='Path to the dataset.')
+    parser.add_argument('--device', type=str, default='cpu',
+                        help='Specify the device on which you will train model.')
+    parser.add_argument('--output_folder', type=str, default='bert-model',
+                        help='Specify the name of a folder, which will contain final weights.')
     
-
     return parser.parse_args()
 
 
@@ -161,6 +165,11 @@ def training_loop(model, optimizer, epochs:int, data_train: DataLoader, data_val
             1: [],
             2: []
         }
+        precisions = {
+            0: [],
+            1: [],
+            2: []
+        }
         with torch.no_grad():
             # Validation step
             for input_ids, attention_masks, labels in data_val:
@@ -188,6 +197,10 @@ def training_loop(model, optimizer, epochs:int, data_train: DataLoader, data_val
 
 if __name__ == '__main__':
     args = parse_arguments()
+    if os.path.exists(args.output_folder):
+        raise Exception('Such folder already exists!')
+    else:
+        os.mkdir(args.output_folder)
 
     model = BertModel(classes_num=3)
     
@@ -211,10 +224,10 @@ if __name__ == '__main__':
     dataloader_val = DataLoader(dataset_val, batch_size=args.batch_size)
 
     optimizer = torch.optim.SGD(model.parameters(), lr=args.learning_rate)
-    device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-    model = model.to(device)
+    model = model.to(args.device)
 
-    training_loop(model, optimizer, args.epochs, dataloader_train, dataloader_val, device=device)
+    training_loop(model, optimizer, args.epochs, dataloader_train, dataloader_val, device=args.device)
 
-    model.bert.save_pretrained("./weights/bert_v2-test-4", from_pt=True)
+    model.bert.save_pretrained(args.output_folder, from_pt=True)
+    print('Weights are saved!')

@@ -14,16 +14,18 @@ def parse_arguments():
     parser.add_argument('-i', '--input', type=str,
                         help='Path to the file with input.')
     parser.add_argument('--output_format', type=str, default='txt',
-                        help='Choose between TXT, HTML formats.')
-    parser.add_argument('-o', '--output', type=str, default='inference.txt',
+                        help='Choose between TXT, HTML formats. Only TXT is supported right now.')
+    parser.add_argument('-o', '--output', type=str, default='inference.json',
                         help='Name of the file where output will be stored.')
     parser.add_argument('-d', '--device', type=str, default='cpu',
                         help='On which device to run the model.')
+    parser.add_argument('--threshold', type=float, default=0,
+                        help='Defines the threhold for probability.')
 
     return parser.parse_args()
 
 
-def inference_sentence_tags(model: BertModel, tokenizer, sentence: str, device: str='cpu'):
+def inference_sentence_tags(model: BertModel, tokenizer, sentence: str, threshold: float, device: str='cpu'):
     '''
         This function is bugged, because it do not take into consideration variant that it will be:
 
@@ -48,15 +50,17 @@ def inference_sentence_tags(model: BertModel, tokenizer, sentence: str, device: 
     mask = data['attention_mask'].to(device)
 
     logits = model(input_id, mask, None)
-    logits = logits[0][0] # We unsqueeze our result
+    logits = logits[0][0]
     
     indexes = []
     previous_id = None
     for index, id in enumerate(word_ids):
+        current_id = logits[index].argmax()
+
         if id is None:
             continue
         elif id != previous_id:
-            indexes.append(logits[index].argmax())
+            indexes.append(current_id)
             previous_id = id
         else:
             continue
@@ -69,19 +73,22 @@ def inference_sentence_tags(model: BertModel, tokenizer, sentence: str, device: 
 
 def highlight_mountians(sentence, tags):
     result = ''
+    begin = '[\BEGIN]'
+    end = '[\END]'
+
     mountain = False
     for index, token in enumerate(nltk.word_tokenize(sentence)):
         if tags[index] == 'B-mount':
-            result += '&& ' + token + ' '
+            result += begin + ' ' + token + ' '
             mountain = True
         elif tags[index] == 'O' and mountain == True:
-            result += '&& ' + token + ' '
+            result += end + ' ' + token + ' '
             mountain =False
         else:
             result += token + ' '
 
     if mountain:
-        result += '&&'
+        result += end
 
     return result
 
