@@ -56,7 +56,6 @@ def inference_sentence_tags(model: BertModel, tokenizer, sentence: str, threshol
     previous_id = None
     for index, id in enumerate(word_ids):
         current_id = logits[index].argmax()
-
         if id is None:
             continue
         elif id != previous_id:
