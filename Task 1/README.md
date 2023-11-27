@@ -1,5 +1,14 @@
 # NER
-Recognizing mountain entities in the text. Bert-based 
+Recognizing mountain entities in the text. Bert-based
+
+## Setting up the repository
+To set up this repository you'll need:
+
+1) Run `pip install -r requirements.txt`
+2) Create folder `weights` in the root of this repository.
+3) Copy weights from the Google Drive to the folder `weights`
+
+Also I have to say that tests showed, that the best models are `bert_v2-test` and `bert_v3-test`.
 
 ## Project Structure
 To make project feasible for understanding, code and data were divided into different folders. Also data hase subfolders. Project has the following structure:
