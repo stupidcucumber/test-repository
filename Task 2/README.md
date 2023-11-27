@@ -79,7 +79,7 @@ $ python inference.py --first-image examples/example_2/0_aug_0.jpg --second-imag
 ![Matched Keypoints](./examples/outputs_misc/matched_output_1.jpg)
 
 # Training/finetuning
-Unfortunately, there was no training and only pretrained models are being used. However, there are my thoughts on training and how to implement it placed in 'Enhancements.pdf'.
+Unfortunately, there was no training and only pretrained models are being used. However, there are my thoughts on training and how to implement it placed in 'Enhancements.pdf'. There is also a script named 'train.py' which is currently with a lot of bugs, as well as implementation of MagicPoint architecture (which also needs to be fixed).
 
 In a nutshell, it is obvious, that there must be a finetuning on images from satellites due to the difference in camera angle, perspective and also size of the objects on the scene. For preparing dataset I would use trained MagicPoint to generate dataset for finetuning SuperPoint on satellite data. However, there is a big questing do we need to finetune SuperGlue? 
 
