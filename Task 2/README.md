@@ -78,6 +78,13 @@ $ python inference.py --first-image examples/example_2/0_aug_0.jpg --second-imag
 
 ![Matched Keypoints](./examples/outputs_misc/matched_output_1.jpg)
 
+Example with completely differens seasons (imaginary from Sentinel-2):
+```
+$ python inference.py --first-image examples/example_sentinel_2/image_0.jpg --second-image examples/example_sentinel_2/image_1.jpg -s 2
+```
+
+![Matched Keypoints](./examples/outputs_misc/matched_output_winter.jpg)
+
 # Training/finetuning
 Unfortunately, there was no training and only pretrained models are being used. However, there are my thoughts on training and how to implement it placed in 'Enhancements.pdf'. There is also a script named 'train.py' which is currently with a lot of bugs, as well as implementation of MagicPoint architecture (which also needs to be fixed).
 
