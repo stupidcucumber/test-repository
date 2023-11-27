@@ -41,7 +41,7 @@ class SatellitePreprocessor(ImagePreprocessor):
     def __call__(self, image: cv2.Mat) -> torch.Tensor:
         '''
                 Function accepts, for example, image 8160x8160, slices it into 480x480 images.
-            In the result we get 256 subimages in grayscale.
+            In the result we get 289 subimages in grayscale.
         '''
         image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         child_images = [

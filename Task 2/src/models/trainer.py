@@ -1,6 +1,7 @@
 import torch
 import numpy as np
 
+
 class MagicPointTrainer:
     def __init__(self, model, optimizer, threshold: float=0.5, device: str='cpu'):
         self.model = model
