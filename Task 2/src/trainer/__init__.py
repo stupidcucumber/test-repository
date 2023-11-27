@@ -1,0 +1,1 @@
+from .magic_point_trainer import MagicPointTrainer

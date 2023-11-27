@@ -1,13 +1,13 @@
 from torch import nn
-from .backbone import VGGEncoder, VGGDecoder
+from .model_parts import VGGBackbone, Decoder
 
 
 class MagicPoint(nn.Module):
-    def __init__(self, image_height: int=224, image_width: int=224):
+    def __init__(self):
         super().__init__()
 
-        self.encoder = VGGEncoder()
-        self.decoder = VGGDecoder(image_height=image_height, image_width=image_width)
+        self.encoder = VGGBackbone()
+        self.decoder = Decoder()
 
 
     def forward(self, input):

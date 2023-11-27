@@ -10,7 +10,7 @@ def parse_arguments():
                         help='Path to the folder containing dataset files.')
     parser.add_argument('-o', '--output', type=str, default='magic_point_dataset.csv',
                         help='Name of the file, that stores dataset.')
-    parser.add_argument('--extract_tar', type=bool, default=False,
+    parser.add_argument('--extract-tar', action='store_true',
                         help='Whether to extract .tar archives, or they have been already extracted. Default to False.')
     
     return parser.parse_args()

@@ -13,10 +13,10 @@ class MagicPointTrainer:
     def _val_step(self, images, labels):
         self.model.eval()
 
-        logits = self.model(images)
+        logits, scores = self.model(images)
         loss = self._weighted_loss(logits.reshape(-1), labels.reshape(-1))
 
-        return loss, logits
+        return loss, logits, scores
     
 
     def _weighted_loss(self, logits, labels):
@@ -24,11 +24,9 @@ class MagicPointTrainer:
         zero_indeces = (labels == 0).nonzero(as_tuple=True)[0]
 
         weight = torch.zeros(len(logits)).to(self.device)
-        weight[one_indeces] = 0.6
-        weight[zero_indeces] = 0.4
-        loss_fn = torch.nn.CrossEntropyLoss(
-            weight=weight
-        )
+        weight[one_indeces] = 1
+        weight[zero_indeces] = 1
+        loss_fn = torch.nn.BCEWithLogitsLoss()
 
         result = loss_fn(logits, labels)
         return result
@@ -38,20 +36,38 @@ class MagicPointTrainer:
         self.model.train()
         self.optimizer.zero_grad()
 
-        logits = self.model(images)
+        logits, scores = self.model(images)
         loss = self._weighted_loss(logits.reshape(-1), labels.reshape(-1))
         loss.backward()
         self.optimizer.step()
 
-        return loss, logits
+        return loss, logits, scores
+    
 
+    def _calculate_recall_experiment(self, scores, targets, epsilon=3):
+        predictions = torch.round(scores)
+        true_positives = 0
+        false_negatives = 0
 
-    def _calculate_accuracy(self, logits, labels):
-        logits = logits.reshape(-1)
-        labels = labels.reshape(-1)
+        for prediction, target in zip(predictions, targets):
+            for keypoint_prediction, keypoint_target in zip(prediction, target):
+                distance = torch.linalg.norm(keypoint_prediction - keypoint_target)
 
-        positive = torch.sum(torch.round(logits) == labels)
-        all = len(logits)
+                if distance <= epsilon:
+                    true_positives += 1
+                else:
+                    false_negatives += 1
+
+        if true_positives + false_negatives == 0:
+            return 0
+
+        recall = true_positives / (true_positives + false_negatives)
+        return recall
+    
+
+    def _calculate_accuracy(self, scores, labels):
+        positive = torch.sum(torch.round(scores) == labels)
+        all = torch.prod(torch.as_tensor(scores.shape))
         
         return (positive / all).item()
     
@@ -95,11 +111,11 @@ class MagicPointTrainer:
                 images = images.to(self.device)
                 labels = labels.to(self.device)
 
-                loss, logits = self._train_step(images, labels)
+                loss, logits, scores = self._train_step(images, labels)
                 epoch_dict['loss'].append(loss.item())
-                epoch_dict['accuracy'].append(self._calculate_accuracy(logits=logits, labels=labels))
-                epoch_dict['precision'].append(self._calculate_precision(logits=logits, labels=labels))
-                epoch_dict['recall'].append(self._calculate_recall(logits=logits, labels=labels))
+                epoch_dict['accuracy'].append(self._calculate_accuracy(scores=scores, labels=labels))
+                epoch_dict['precision'].append(self._calculate_precision(logits=scores, labels=labels))
+                epoch_dict['recall'].append(self._calculate_recall(logits=scores, labels=labels))
                 print('Training. For the epoch %d: ' % (epoch) + str({key: np.mean(value) for key, value in epoch_dict.items()}) + '            ', end='\r')
             print()
 
@@ -111,11 +127,11 @@ class MagicPointTrainer:
                     images = images.to(self.device)
                     labels = labels.to(self.device)
 
-                    loss, logits = self._val_step(images, labels)
+                    loss, logits, scores = self._val_step(images, labels)
                     epoch_dict['loss'].append(loss.item())
-                    epoch_dict['accuracy'].append(self._calculate_accuracy(logits=logits, labels=labels))
-                    epoch_dict['precision'].append(self._calculate_precision(logits=logits, labels=labels))
-                    epoch_dict['recall'].append(self._calculate_recall(logits=logits, labels=labels))
+                    epoch_dict['accuracy'].append(self._calculate_accuracy(scores=scores, labels=labels))
+                    epoch_dict['precision'].append(self._calculate_precision(logits=scores, labels=labels))
+                    epoch_dict['recall'].append(self._calculate_recall(logits=scores, labels=labels))
                     print('Validating. For the epoch %d: '
                             % (epoch), {key: np.mean(value) for key, value in epoch_dict.items()}, 
                             '            ', end='\r')
@@ -131,11 +147,11 @@ class MagicPointTrainer:
                     images = images.to(self.device)
                     labels = labels.to(self.device)
                     
-                    loss, logits = self._val_step(images, labels)
+                    loss, logits, scores = self._val_step(images, labels)
                     epoch_dict['loss'].append(loss.item())
-                    epoch_dict['accuracy'].append(self._calculate_accuracy(logits=logits, labels=labels))
-                    epoch_dict['precision'].append(self._calculate_precision(logits=logits, labels=labels))
-                    epoch_dict['recall'].append(self._calculate_recall(logits=logits, labels=labels))
+                    epoch_dict['accuracy'].append(self._calculate_accuracy(scores=scores, labels=labels))
+                    epoch_dict['precision'].append(self._calculate_precision(logits=scores, labels=labels))
+                    epoch_dict['recall'].append(self._calculate_recall(logits=scores, labels=labels))
                     print('Testing. For the epoch %d: loss is %.4f, accuracy is %.4f'
                         % (epoch, np.mean(epoch_dict['loss']), np.mean(epoch_dict['accuracy'])))
                 print()
