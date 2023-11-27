@@ -98,6 +98,8 @@ python3 train.py -e 4 -b 4 -lr 0.004 --dataset data/data_with_tags/final/fine-tu
 
 After this dataset will be loaded and training will start. After completing training you will see folder 'bert_finetuned' in the root direcoty that contains weights for the model. Those weights will be used in inference.py script.
 
+While training all logs are being stored in data/logs/train folder.
+
 ## Inferencing
 To inference model on desirable text all you need is to run inference.py with the following CLI:
 ```

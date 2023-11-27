@@ -25,7 +25,7 @@ def parse_arguments():
     return parser.parse_args()
 
 
-def inference_sentence_tags(model: BertModel, tokenizer, sentence: str, threshold: float, device: str='cpu'):
+def inference_sentence_tags(model: BertModel, tokenizer, sentence: str, device: str='cpu'):
     '''
         This function is bugged, because it do not take into consideration variant that it will be:
 

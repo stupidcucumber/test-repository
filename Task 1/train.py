@@ -8,6 +8,7 @@ from ast import literal_eval
 import os
 from datetime import datetime
 import json
+from bert import utils, visualize
 
 
 def parse_arguments():
@@ -27,73 +28,6 @@ def parse_arguments():
                         help='Specify the name of a folder, which will contain final weights.')
     
     return parser.parse_args()
-
-
-def find_positive(labels, logits):
-    total_positive = 0
-    number_tokens = 0
-    for i in range(logits.shape[0]):
-
-        logits_clean = logits[i][labels[i] != -100]
-        label_clean = labels[i][labels[i] != -100]
-
-        predictions = logits_clean.argmax(dim=1)
-        number_tokens += len(predictions)
-        total_positive += torch.sum((predictions == label_clean))
-
-    return total_positive, number_tokens
-
-
-def find_recall(labels, logits, expected_token: int) -> torch.float32:
-    temp_recall = []
-
-    for i in range(logits.shape[0]):
-        logits_clean = logits[i][labels[i] != -100]
-        label_clean = labels[i][labels[i] != -100]
-
-        predictions = logits_clean.argmax(dim=1)
-
-        positive = 0
-        all = 0
-        for index, token in enumerate(label_clean):
-            if token == expected_token:
-                all += 1
-
-                if token == predictions[index]:
-                    positive += 1
-
-        if all == 0:
-            temp_recall.append(1)
-        else:
-            temp_recall.append(positive / all)
-
-    return np.mean(temp_recall)
-
-
-def find_precision(labels, logits, expected_token: str) -> torch.float32:
-    temp_precision = []
-
-    for i in range(logits.shape[0]):
-        logits_clean = logits[i][labels[i] != -100]
-        label_clean = labels[i][labels[i] != -100]
-
-        predictions = logits_clean.argmax(dim=1)
-
-        positive = 0
-        negative = 0
-        for index, token in enumerate(predictions):
-            if token == expected_token:
-                if token == label_clean[index]:
-                    positive += 1
-                else:
-                    negative += 1
-        
-        if (positive + negative) == 0:
-            temp_precision.append(1)
-        else:
-            temp_precision.append(positive / (negative + positive))
-
-    return np.mean(temp_precision)
 
 
 def train_step(model, optimizer, input_ids, attention_masks, labels):
@@ -154,13 +88,13 @@ def training_loop(model, optimizer, epochs:int, data_train: DataLoader, data_val
             labels = labels.to(device)
 
             loss, logits = train_step(model, optimizer, input_ids, attention_masks, labels)
-            positive_tokens, tokens = find_positive(labels, logits)
+            positive_tokens, tokens = utils.find_positive(labels, logits)
 
             for key, value in recalls.items():
-                value.append(find_recall(logits=logits, labels=labels, expected_token=key))
+                value.append(utils.find_recall(logits=logits, labels=labels, expected_token=key))
             
             for key, value in precisions.items():
-                value.append(find_precision(logits=logits, labels=labels, expected_token=key))
+                value.append(utils.find_precision(logits=logits, labels=labels, expected_token=key))
             
             equal_tokens += positive_tokens
             total_tokens += tokens
@@ -202,12 +136,12 @@ def training_loop(model, optimizer, epochs:int, data_train: DataLoader, data_val
 
                 loss, logits = val_step(model, input_ids, attention_masks, labels)
 
-                positive_tokens, tokens = find_positive(labels, logits)
+                positive_tokens, tokens = utils.find_positive(labels, logits)
                 for key, value in recalls.items():
-                    value.append(find_recall(logits=logits, labels=labels, expected_token=key))
+                    value.append(utils.find_recall(logits=logits, labels=labels, expected_token=key))
 
                 for key, value in precisions.items():
-                    value.append(find_precision(logits=logits, labels=labels, expected_token=key))
+                    value.append(utils.find_precision(logits=logits, labels=labels, expected_token=key))
                     
                 equal_tokens += positive_tokens
                 total_tokens += tokens
@@ -252,17 +186,17 @@ def training_loop(model, optimizer, epochs:int, data_train: DataLoader, data_val
 
             loss, logits = val_step(model, input_ids, attention_masks, labels)
 
-            positive_tokens, tokens = find_positive(labels, logits)
+            positive_tokens, tokens = utils.find_positive(labels, logits)
             for key, value in recalls.items():
-                value.append(find_recall(logits=logits, labels=labels, expected_token=key))
+                value.append(utils.find_recall(logits=logits, labels=labels, expected_token=key))
             for key, value in precisions.items():
-                value.append(find_precision(logits=logits, labels=labels, expected_token=key))
+                value.append(utils.find_precision(logits=logits, labels=labels, expected_token=key))
             
             equal_tokens += positive_tokens
             total_tokens += tokens
             
             losses.append(loss.item())
-            print('Validation step. Accuracy is %f, loss is: %f                                       ' 
+            print('Test step. Accuracy is %f, loss is: %f                                       ' 
                 % (equal_tokens / total_tokens, np.mean(losses)), end='\r')
         print()
         print('\tRecall: ', {key: np.mean(value) for key, value in recalls.items()})
@@ -274,11 +208,15 @@ def training_loop(model, optimizer, epochs:int, data_train: DataLoader, data_val
                   precision=precisions, 
                   loss=np.mean(losses),
                   accuracy=(equal_tokens / total_tokens).item())
-        
 
     log_file_test.close()
     log_file_train.close()
     log_file_val.close()
+
+    print('Fisualizing logs...')
+    visualize.visualize_logs(train_log_path=os.path.join(folder_path, 'train.log'), 
+                             val_log_path=os.path.join(folder_path, 'val.log'), 
+                             output_folder=folder_path)
 
 
 if __name__ == '__main__':
